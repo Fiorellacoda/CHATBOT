@@ -7,8 +7,8 @@ import uvicorn
 
 nlp = spacy.load("es_core_news_md")
 
-productos_df = pd.read_csv('GG.csv')
-guia_talles_df = pd.read_excel('4EW.xlsx')
+productos_df = pd.read_csv('libro4.csv')
+guia_talles_df = pd.read_excel('tabla-de-talles.xlsx')
 
 app = FastAPI()
 
